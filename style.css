@@ -1,0 +1,116 @@
+body {
+    text-align: center;
+    background-color: rgb(31, 37, 44);
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3rem;
+    margin: 90px auto;
+    color: gold;
+}
+
+.h1-over{
+    color: firebrick;
+}
+
+button {
+    width: 250px;
+    height: 250px;
+    border: solid 5px;
+    margin: 5px;
+}
+
+.buttons {
+    width: 550px;
+    height: 550px;
+    margin: auto;
+    border-radius: 45%;
+    box-shadow: 0 0 100px rgb(15, 15, 15), inset 0 0 100px rgb(15, 15, 15);
+}
+
+.blue-button {
+    background-color: blue;
+    color: rgba(0, 0, 255, 0);
+    border-radius: 100% 10% 10%;
+    border-top-color: rgb(95, 95, 255);
+    border-left-color: rgb(95, 95, 255);
+    border-right-color: rgb(0, 0, 155);
+    border-bottom-color: rgb(0, 0, 155);
+    margin-top: 20px;
+}
+
+.blue-button-active {
+    border-color: rgb(39, 223, 255);
+    box-shadow: 0 0 50px white, inset 0 0 150px white;
+}
+
+.green-button {
+    background-color: green;
+    color: rgba(0, 128, 0, 0);
+    border-radius: 10% 100% 10% 10%;
+    border-top-color: rgb(95, 128, 95);
+    border-left-color: rgb(95, 128, 95);
+    border-right-color: rgb(0, 75, 0);
+    border-bottom-color: rgb(0, 75, 0);
+}
+
+.green-button-active {
+    border-color: springgreen;
+    box-shadow: 0 0 50px white, inset 0 0 150px white;
+}
+
+.red-button {
+    background-color: red;
+    color: rgba(255, 0, 0, 0);
+    border-radius: 10% 10% 10% 100%;
+    border-top-color: rgb(255, 95, 95);
+    border-left-color: rgb(255, 95, 95);
+    border-right-color: rgb(155, 0, 0);
+    border-bottom-color: rgb(155, 0, 0);
+}
+
+.red-button-active {
+    border-color: rgb(240, 90, 207);
+    box-shadow: 0 0 50px white, inset 0 0 150px white;
+}
+
+.yellow-button {
+    background-color: yellow;
+    color: rgba(255, 255, 0, 0);
+    border-radius: 10% 10% 100%;
+    border-top-color: rgb(255, 255, 155);
+    border-left-color: rgb(255, 255, 155);
+    border-right-color: rgb(155, 155, 0);
+    border-bottom-color: rgb(155, 155, 0);
+}
+
+.yellow-button-active {
+    border-color: rgb(255, 247, 154);
+    box-shadow: 0 0 50px white, inset 0 0 150px white;
+}
+
+.game-over {
+    background-color: red;
+}
+
+.game-over-text {
+    font-family: 'Press Start 2P', cursive;
+    color: firebrick;
+    font-size: 3rem;
+    position: fixed;
+    width: 100%;
+    margin-top: -350px;
+    text-shadow: 0 0 5px gold;
+}
+
+.hidden {
+    display: none;
+}
+
+footer {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.7rem;
+    margin: 50px auto;
+    color: rgb(45, 55, 65);
+}
